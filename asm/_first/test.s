@@ -5,10 +5,10 @@
 	nop		# pseudo-instruction
 .endm			# directive
 
-	.text		# directive
+	.text		# directive  
 	.global _start	# directive
 _start: 		# Label
-	li x6, 5	# pseudo-instruction
+	li x6, 5	# pseudo-instruction 
 	li x7, 4	# pseudo-instruction
 	add x5, x6, x7	# instruction
 	do_nothing	# Calling macro
